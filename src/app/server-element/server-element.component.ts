@@ -48,7 +48,7 @@ OnDestroy {
   ngOnInit() {
     console.log('ng called');
     console.log('Text content: ' + this.header.nativeElement.textContent);
-    console.log('text Content of pagraph' + this.paragraph.nativeElement.textContent);
+    console.log('text Content of paragraph' + this.paragraph.nativeElement.textContent);
   }
 
     ngDoCheck() {
@@ -67,7 +67,7 @@ OnDestroy {
     ngAfterContentChecked() {
       // Called after every check of the component's or directive's content.
       // Add 'implements AfterContentChecked' to the class.
-      console.log('ngAfterContentChecked pozvan');
+      console.log('ngAfterContentChecked  pozvan');
     }
 
     ngAfterViewInit() {

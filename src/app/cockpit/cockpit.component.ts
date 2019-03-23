@@ -1,6 +1,5 @@
 import { Component, OnInit, EventEmitter, Output, ViewChild, ElementRef } from '@angular/core';
 // import { EventEmitter } from 'events';
-
 @Component({
   selector: 'app-cockpit',
   templateUrl: './cockpit.component.html',
